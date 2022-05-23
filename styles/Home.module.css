@@ -32,6 +32,7 @@
 .heading{
   font-family: 'Oleo Script Swash Caps', sans-serif;
   font-size: 40px;
+
 }
 .wave{
   width: 100vw;
@@ -243,6 +244,9 @@
     width: 200px;
     height: 150px;
     left:70%;
+  }
+  .aboutp{
+    font-size: 16px;
   }
   
 }

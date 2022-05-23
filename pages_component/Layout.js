@@ -2,6 +2,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import stars from '../public/stars.png'
 import moon from '../public/moon.png'
+import wave1 from '../public/wave.png'
+import wave2 from '../public/wave2.png'
 import astro from '../public/astro.png'
 import Link from "next/link";
 import { useRouter } from 'next/router'
@@ -41,8 +43,12 @@ export default function Layout({children}) {
       <Image src={astro} layout="fill"></Image>
     </div>
     </div>
-    <div className={styles.wave}></div>
-    <div className={styles.wave2}></div>
+    <div className={styles.wave}>
+    <Image src={wave1} layout="fill" objectFit='contain'></Image>
+    </div>
+    <div className={styles.wave2}>
+    <Image src={wave2} layout="fill" objectFit='contain'></Image>
+    </div>
     </>
   )
 }

@@ -36,17 +36,15 @@
 .wave{
   width: 100vw;
   height: 100vh;
-  background: url('../public/wave.png') no-repeat;
   position: fixed;
-  top:70%;
+  top:50%;
   z-index: 2;
 }
 .wave2{
   width: 100vw;
   height: 100vh;
-  background: url('../public/wave2.png') no-repeat;
   position: fixed;
-  top:70%;
+  top:50%;
 }
 .content{
   text-align:center;
@@ -231,13 +229,7 @@
 }
 
 @media (max-width: 700px) {
-  
-  .wave{
-    top:88%;
-  }
-  .wave2{
-    top:86%;
-  }
+
   .phone{
     width: 300px;
   }

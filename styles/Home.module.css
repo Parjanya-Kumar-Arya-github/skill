@@ -36,7 +36,7 @@
 .wave{
   width: 100vw;
   height: 100vh;
-  background: url('../public/wave.svg') no-repeat;
+  background: url('../public/wave.png') no-repeat;
   position: fixed;
   top:70%;
   z-index: 2;
@@ -44,7 +44,7 @@
 .wave2{
   width: 100vw;
   height: 100vh;
-  background: url('../public/wave2.svg') no-repeat;
+  background: url('../public/wave2.png') no-repeat;
   position: fixed;
   top:70%;
 }

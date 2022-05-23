@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading{
+  font-family: 'Oleo Script Swash Caps', sans-serif;
+  font-size: 40px;
+  
+}
+@keyframes every {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.text{
+  width: 100%; 
+  padding: 12px; 
+  background-color: #161623;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box; 
+  font-family:"Poppins";
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  caret-color:white;
+  color:white;
+}
+
+.content{
+  text-align:center;
+  color:white;
+  width: 90%;
+  animation: every 1.5s;
+
+}
+
+.search{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+.icons {
+            position: absolute;
+	padding: 10px;
+            min-width: 50px;
+right:15px;
+margin-top:10px;
+        }
+.support{
+font-family:"Poppins";
+font-weight:800;
+margin-top:30px;
+}
+
+.box{
+  width: 100%;
+  height: 30vh;
+  border: 1px solid rgba(255,255, 255, 0.5);
+  color:white;
+  border-radius: 10px;
+  text-align: left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.headquest{
+  font-family: "Poppins";
+  margin-bottom: 0;
+  font-weight: 700;
+  padding-left: 5px;
+}
+.pquest{
+  font-family: "Poppins";
+  font-size: 10px;
+  margin-top:0;
+  padding-left: 5px;
+}
+
+.box::-webkit-scrollbar {
+  width: 5px;          
+}
+
+.box::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.5);    
+  border-radius: 40px;      
+}
+
+@media (max-width: 600px) {
+    .support{
+        font-size: 15px;
+    }
+    .headquest{
+        font-size: 12px;
+    }
+    .pquest{
+        font-size: 8px;
+    }
+  }

@@ -1,0 +1,52 @@
+.text,.textarea {
+    width: 80%; 
+    padding: 12px; 
+    background-color: #161623;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box; 
+    font-family:"Poppins";
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    caret-color:white;
+    color:white;
+  }
+  .textarea{
+    height:80px;
+    resize:none;
+    border-radius:10px;
+  }
+  
+  .textarea::-webkit-scrollbar {
+    width: 5px;          
+  }
+  
+  .textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.5);    
+    border-radius: 40px;      
+  }
+  
+  .submit {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    transition: 1s;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family:"Poppins";
+    cursor: pointer;
+  }
+  
+  .submit:hover {
+    background-color: #161623;
+  }
+  .content{
+    text-align:center;
+    color:white;
+    animation: every 1.5s;
+  }
+  .heading{
+    font-family: 'Oleo Script Swash Caps', sans-serif;
+    font-size: 40px;
+  }
